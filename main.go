@@ -6,7 +6,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hey: %s\n", r.URL.Path)
+	fmt.Fprintf(w, "Hey! %s\n", r.URL.Path)
 	// add logging
 	fmt.Printf("Request: %s\n", r.URL.Path)
 }
