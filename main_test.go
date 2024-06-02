@@ -17,7 +17,7 @@ func TestHandler(t *testing.T) {
 
 	handler.ServeHTTP(rr, req)
 
-	expected := "Hello: /\n"
+	expected := "Hey: /\n"
 	if rr.Body.String() != expected {
 		t.Errorf("handler returned unexpected body: got %v want %v",
 			rr.Body.String(), expected)
