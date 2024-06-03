@@ -2,7 +2,7 @@
 
 ## What and Why
 
-Trivial example to learn and practice [git bisect](https://git-scm.com/docs/git-bisect)
+Trivial example to learn and practice [git bisect](https://git-scm.com/docs/git-bisect).
 
 ## Problem Description
 
@@ -14,7 +14,7 @@ Problem: find the commit that first broke the test.
 
 ## Solution
 
-```bash
+```
 # Find first commit
 git log
 
